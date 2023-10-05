@@ -1,0 +1,251 @@
+body {
+  background-color: rgb(13, 17, 23);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.border-sup {
+  padding: 50px;
+  margin-top: -8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.137);
+  background-color: rgb(36, 41, 47);
+  width: 100%;
+  margin-left: -8px;
+}
+
+.border_lat {
+  padding: 20px;
+  height: 200vh;
+  width: 222px;
+  background-color: rgb(36, 41, 47);
+  border-right: 1px solid rgba(255, 255, 255, 0.137);
+  margin-left: -8px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  position: absolute;
+}
+
+#name {
+  position: fixed;
+  font: normal 20pt imperial;
+  color: white;
+}
+
+.perfil {
+  margin-top: 60px;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.527);
+  position: fixed;
+}
+
+.cnt_def {
+  position: fixed;
+  margin-top: 250px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 260px;
+  margin-left: -40px;
+}
+
+#ico {
+  color: white;
+  font-size: 15pt;
+}
+
+#cnt_1 {
+  margin-top: 5px;
+  padding: 10px;
+  height: 20px;
+  width: 242px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cnt_2 {
+  padding: 10px;
+  height: 20px;
+  width: 242px;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cnt_3 {
+  padding: 10px;
+  height: 20px;
+  width: 242px;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cnt_4 {
+  padding: 10px;
+  height: 20px;
+  width: 242px;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projetos {
+  padding: 10px;
+  height: 30px;
+  width: 242px;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15pt;
+}
+
+#cnt_1:hover {
+  background: rgba(240, 248, 255, 0.185);
+}
+
+#cnt_2:hover {
+  background: rgba(240, 248, 255, 0.185);
+}
+
+#cnt_3:hover {
+  background: rgba(240, 248, 255, 0.185);
+}
+
+#cnt_4:hover {
+  background: rgba(240, 248, 255, 0.185);
+}
+
+.projetos:hover {
+  background: rgba(240, 248, 255, 0.185);
+  font-weight: bold;
+}
+
+.container {
+  margin-left: 275px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.bloco_1,
+.bloco_2,
+.bloco_3,
+.bloco_4 {
+  padding: 10px;
+  background: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+  border: 2px solid rgba(59, 54, 54, 0.671);
+  float: left;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+#emp_1,#emp_2 {
+  width: 120px;
+  height: 120px;
+}
+
+#emp_3,#emp_4 {
+  width: 120px;
+  width: 120px;
+  height: 120px;
+}
+.bloco_1:hover,
+.bloco_2:hover,
+.bloco_3:hover,
+.bloco_4:hover {
+  width: 130px;
+  height: 130px;
+  z-index: 3;
+}
+
+.bloco_1:hover #emp_1,
+.bloco_2:hover #emp_2,
+.bloco_3:hover #emp_3,
+.bloco_4:hover #emp_4 {
+  width: 130px;
+}
+
+.exp {
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 650px;
+  height: auto;
+  position: absolute;
+  color: white;
+  margin-left: 290px;
+  margin-top: 200px;
+  flex-direction: column;
+}
+
+
+.exp #exit {
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+  font-size: 8px;
+}
+
+#exit:hover {
+  font-size: 12px;
+}
+
+.bio {
+  margin-left: 295px;
+  margin-top: 32px;
+  color: white;
+  font: normal 25pt imperial;
+}
+
+.open_bio {
+  display: flex;
+  margin-left: 490px;
+  margin-top: -28px;
+  color: white;
+  font: normal 8pt imperial;
+  cursor: pointer;
+}
+
+.bio_desc {
+  padding: 20px;
+  border-radius: 20px;
+  width: 1000px;
+  height: auto;
+  position: absolute;
+  color: white;
+  display: flex;
+  margin-left: 303px;
+  flex-direction: column;
+}
+.carreira{
+  color:white;
+  margin-left: 295px;
+  margin-top: 32px;
+  color: white;
+  font: normal 25pt imperial;
+}
