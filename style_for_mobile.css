@@ -5,16 +5,6 @@
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
   }
-  #cnt_bt_lat {
-    display: flex;
-    justify-content: flex-end; /* Alinha o conteúdo do elemento à direita */
-    align-items: flex-end; /* Alinha o conteúdo do elemento na parte inferior */
-    position: fixed; /* Torna o elemento fixo na página */
-    bottom: 10%; 
-    right: 20px; /* Coloca o elemento no canto inferior direito da página */
-   
-  }
-
   .border_lat {
     background-color: rgb(36, 41, 47);
     margin-top: 80px;

@@ -2,11 +2,6 @@ body {
   background-color: rgb(13, 17, 23);
   overflow-x: hidden;
 }
-@media screen and (min-width: 769px) {
-  #btn_lat {
-    display: none;
-  }
-}
 .border_lat {
   margin-top: 60px;
   padding: 20px;
