@@ -1,0 +1,74 @@
+@media screen and (max-width: 768px) {
+  body {
+    overflow: hidden;
+    background-color: rgb(13, 17, 23);
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+  }
+  #cnt_bt_lat {
+    display: flex;
+    justify-content: flex-end; /* Alinha o conteúdo do elemento à direita */
+    align-items: flex-end; /* Alinha o conteúdo do elemento na parte inferior */
+    position: fixed; /* Torna o elemento fixo na página */
+    bottom: 10%; 
+    right: 20px; /* Coloca o elemento no canto inferior direito da página */
+   
+  }
+
+  .border_lat {
+    background-color: rgb(36, 41, 47);
+    margin-top: 80px;
+    padding: 20px;
+    height: 200vh;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.137);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 100;
+  }
+
+  #cnt_1,
+  #cnt_2,
+  #cnt_3,
+  #cnt_4 {
+    padding: 10px;
+    height: 40px;
+    width: 200%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #cnt_4 {
+    border-bottom: 1px solid white;
+  }
+  .projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200%;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 15pt;
+    font-weight: bold;
+  }
+
+  #cnt_1:hover,
+  #cnt_2:hover,
+  #cnt_3:hover,
+  #cnt_4:hover {
+    background: rgba(240, 248, 255, 0.185);
+  }
+
+  .projetos:hover {
+    background: rgba(240, 248, 255, 0.185);
+  }
+  .bloco_1,
+.bloco_2,
+.bloco_3,
+.bloco_4 {
+display: none;
+}
+}

@@ -2,6 +2,24 @@ body {
   background-color: rgb(13, 17, 23);
   overflow-x: hidden;
 }
+@media screen and (min-width: 769px) {
+  #btn_lat {
+    display: none;
+  }
+}
+.border_lat {
+  margin-top: 60px;
+  padding: 20px;
+  height: 200vh;
+  width: 222px;
+  background-color: rgb(36, 41, 47);
+  border-right: 1px solid rgba(255, 255, 255, 0.137);
+  margin-left: -8px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  position: fixed;
+}
 
 a {
   text-decoration: none;
@@ -22,19 +40,8 @@ ul {
   background-color: rgb(36, 41, 47);
   width: 100%;
   margin-left: -8px;
-}
-
-.border_lat {
-  padding: 20px;
-  height: 200vh;
-  width: 222px;
-  background-color: rgb(36, 41, 47);
-  border-right: 1px solid rgba(255, 255, 255, 0.137);
-  margin-left: -8px;
-  display: flex;
-  align-items: start;
-  justify-content: center;
-  position: absolute;
+  top: 0;
+  position: fixed;
 }
 
 #name {
@@ -66,46 +73,20 @@ ul {
   font-size: 15pt;
 }
 
-#cnt_1 {
-  margin-top: 5px;
+#cnt_1,
+#cnt_2,
+#cnt_3,
+#cnt_4 {
   padding: 10px;
   height: 20px;
   width: 242px;
-  border-bottom: 1px solid white;
   border-top: 1px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-#cnt_2 {
-  padding: 10px;
-  height: 20px;
-  width: 242px;
-  border-bottom: 1px solid white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#cnt_3 {
-  padding: 10px;
-  height: 20px;
-  width: 242px;
-  border-bottom: 1px solid white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 #cnt_4 {
-  padding: 10px;
-  height: 20px;
-  width: 242px;
   border-bottom: 1px solid white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .projetos {
@@ -120,18 +101,9 @@ ul {
   font-size: 15pt;
 }
 
-#cnt_1:hover {
-  background: rgba(240, 248, 255, 0.185);
-}
-
-#cnt_2:hover {
-  background: rgba(240, 248, 255, 0.185);
-}
-
-#cnt_3:hover {
-  background: rgba(240, 248, 255, 0.185);
-}
-
+#cnt_1:hover,
+#cnt_2:hover,
+#cnt_3:hover,
 #cnt_4:hover {
   background: rgba(240, 248, 255, 0.185);
 }
@@ -165,12 +137,14 @@ ul {
   margin-bottom: 15px;
 }
 
-#emp_1,#emp_2 {
+#emp_1,
+#emp_2 {
   width: 120px;
   height: 120px;
 }
 
-#emp_3,#emp_4 {
+#emp_3,
+#emp_4 {
   width: 120px;
   width: 120px;
   height: 120px;
@@ -184,13 +158,6 @@ ul {
   z-index: 3;
 }
 
-.bloco_1:hover #emp_1,
-.bloco_2:hover #emp_2,
-.bloco_3:hover #emp_3,
-.bloco_4:hover #emp_4 {
-  width: 130px;
-}
-
 .exp {
   padding: 20px;
   border-radius: 20px;
@@ -202,7 +169,6 @@ ul {
   margin-top: 200px;
   flex-direction: column;
 }
-
 
 .exp #exit {
   display: flex;
@@ -242,10 +208,13 @@ ul {
   margin-left: 303px;
   flex-direction: column;
 }
-.carreira{
-  color:white;
+.carreira {
+  color: white;
   margin-left: 295px;
   margin-top: 32px;
   color: white;
   font: normal 25pt imperial;
 }
+
+
+
