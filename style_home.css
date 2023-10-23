@@ -3,7 +3,7 @@ body {
   overflow-x: hidden;
 }
 .border_lat {
-  margin-top: 60px;
+  margin-top: 83px;
   padding: 20px;
   height: 200vh;
   width: 222px;
@@ -110,7 +110,7 @@ ul {
 
 .container {
   margin-left: 275px;
-  margin-top: 10px;
+  margin-top: 150px;
   position: absolute;
 }
 
@@ -133,25 +133,13 @@ ul {
 }
 
 #emp_1,
-#emp_2 {
+#emp_2,
+#emp_3,
+#emp_4 {
   width: 120px;
   height: 120px;
 }
 
-#emp_3,
-#emp_4 {
-  width: 120px;
-  width: 120px;
-  height: 120px;
-}
-.bloco_1:hover,
-.bloco_2:hover,
-.bloco_3:hover,
-.bloco_4:hover {
-  width: 130px;
-  height: 130px;
-  z-index: 3;
-}
 
 .exp {
   padding: 20px;
