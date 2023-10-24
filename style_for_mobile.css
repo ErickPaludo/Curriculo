@@ -1,15 +1,15 @@
 @media screen and (max-width: 768px) {
   body {
-    background-color: rgb(13, 17, 23);
+    background-color: rgb(31, 36, 43);
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
+    justify-content: center; 
   }
   .container {
     display: flex;
     margin: 0;
     margin-right: 15px;
     margin-top: 700px;
-    z-index: 500;
+    position: fixed;
 }
 
   .bloco_1,
@@ -26,17 +26,25 @@
   width: 55px;
   height: 55px;
 }
+.border-sup {
+  padding: 50px;
+  margin-top: -8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.137);
+  background-color: rgb(36, 41, 47);
+  width: 100%;
+  margin-left: -8px;
+  top: 0; 
+  position: fixed;
+}
   .border_lat {
     background-color: rgb(31, 36, 43);
     margin-top: 80px;
     padding: 20px;
-    height: 200vh;
+    height: 578px;
     width: 100%;
     border-top: 1px solid rgba(255, 255, 255, 0.137);
     display: flex;
     justify-content: center;
-    position: fixed;
-
   }
   #cnt_1,
   #cnt_2,
@@ -64,20 +72,10 @@
     font-size: 15pt;
     font-weight: bold;
   }
-
-  #cnt_1:hover,
-  #cnt_2:hover,
-  #cnt_3:hover,
-  #cnt_4:hover {
-    background: rgba(240, 248, 255, 0.185);
-  }
-
-  .projetos:hover {
-    background: rgba(240, 248, 255, 0.185);
-  }
 .exp{
   display: flex;
   margin: 0;
-  margin-top: 800px;
+  margin-top: 40%;
+
 }
 }

@@ -48,33 +48,5 @@ var param_three = document.querySelector(".p_4");
 var param_four = document.querySelector(".p_5");
 var espaco = document.querySelector("#ghost");
 
-function open_bio() {
-  if (contador % 2 === 0) {
-    formatacion_bio();
-    espaco.style.marginTop = "600px"
-    param.innerHTML = "Olá, meu nome é Érick Augusto Paludo, tenho 18 anos e sou natural de Caxias do Sul, Rio Grande do Sul. Atualmente, estou cursando Ciência da Computação no Centro Universitário da Serra Gaúcha | FSG. Morei em Joinville SC de 2020 até 2022, no início de 2023 retornei a minha cidade de origem.";
-    param_one.innerHTML = "Comecei a aprender programação por volta em 2020 em meio a pandemia. Estudei a lógica de programação em C# e algum tempo depois estudei Orientação de Objetos.";
-     param_two.innerHTML = "É importante ressaltar que, até o ano de 2023, fui autodidata, aprendendo por conta própria com cursos em diversas plataformas. Trabalhava de manhã, estudava à tarde (ensino médio) e estudava programação todas as noites"
-     param_three = "Em 2023, depois de uma experiência de estágio em uma empresa com um grande estoque, decidi desenvolver um sistema de gestão de estoque chamado Vanilla Stq a fim de entender como funcionava por trás."
-     param_four.innerHTML = "Esta é uma breve visão da minha jornada na programação. Ao longo deste site, você verá muitos novos projetos e a apresentação de alguns que ainda estão em desenvolvimento. Como pode notar, atualmente estou estudando HTML juntamente com JavaScript."
-    
-    
-    contador++;
-  }
-  else {
-    espaco.style.marginTop = "10px"
-    bckgnd_bio.style.background = "none";
-    bckgnd_bio.style.border = "none";
-    contador++;
-    param.innerHTML = ""
-    param_one.innerHTML = ""
-    param_two.innerHTML = ""
-    param_three.innerHTML = ""
-    param_four.innerHTML = ""
-    param_five.innerHTML = ""
-  }
 
 
-
-
-}
