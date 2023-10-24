@@ -1,6 +1,5 @@
 @media screen and (max-width: 768px) {
   body {
-    overflow: hidden;
     background-color: rgb(13, 17, 23);
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
@@ -24,8 +23,8 @@
   #emp_2,
   #emp_3,
   #emp_4 {
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
 }
   .border_lat {
     background-color: rgb(31, 36, 43);
