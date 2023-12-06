@@ -71,7 +71,7 @@ ul {
 #cnt_1,
 #cnt_2,
 #cnt_3,
-#cnt_4 {
+#cnt_4{
   padding: 10px;
   height: 20px;
   width: 242px;
@@ -135,7 +135,8 @@ ul {
 #emp_1,
 #emp_2,
 #emp_3,
-#emp_4 {
+#emp_4,
+#emp_5 {
   width: 120px;
   height: 120px;
 }
