@@ -1,0 +1,81 @@
+@media screen and (max-width: 768px) {
+  body {
+    background-color: rgb(31, 36, 43);
+    display: flex;
+    justify-content: center; 
+  }
+  .container {
+    display: flex;
+    margin: 0;
+    margin-right: 15px;
+    margin-top: 700px;
+    position: fixed;
+}
+
+  .bloco_1,
+  .bloco_2,
+  .bloco_3,
+  .bloco_4 {
+   width: auto;
+   height: auto;
+  }
+  #emp_1,
+  #emp_2,
+  #emp_4,
+  #emp_5 {
+  width: 55px;
+  height: 55px;
+}
+.border-sup {
+  padding: 50px;
+  margin-top: -8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.137);
+  background-color: rgb(36, 41, 47);
+  width: 100%;
+  margin-left: -8px;
+  top: 0; 
+  position: fixed;
+}
+  .border_lat {
+    background-color: rgb(31, 36, 43);
+    margin-top: 80px;
+    padding: 20px;
+    height: 578px;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.137);
+    display: flex;
+    justify-content: center;
+  }
+  #cnt_1,
+  #cnt_2,
+  #cnt_3,
+  #cnt_4 {
+    padding: 10px;
+    height: 40px;
+    width: 200%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #cnt_4 {
+    border-bottom: 1px solid white;
+  }
+  .projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200%;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 15pt;
+    font-weight: bold;
+  }
+.exp{
+  display: flex;
+  margin: 0;
+  margin-top: 40%;
+
+}
+}
